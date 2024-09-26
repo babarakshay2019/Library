@@ -166,5 +166,11 @@ Follow these steps to set up the project locally:
 
     Start the Django development server:
     ```bash
-        python manage.py runserver
+    python manage.py runserver
 The server will be run at http://127.0.0.1:8000/.
+
+### Command for creating model
+This Command will create .h5 file for model which can be used for books recommendations:
+
+```bash
+python manage.py create_model
